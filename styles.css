@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+ .boxing {
+   height: 100vh;
+   width: calc(100%/3);
+   padding: 70px;
+   margin: 0;
+ }
+.box-1 {
+  background:green;
+  float: left;
+}
+.box-2 {
+  background:red;
+  float: left;
+}
+.box-3 {
+  background:yellow;
+  float: left;
+}
+.box-4 {
+  background:purple;
+  float: right;
+}
+.out-box {
+height: 200px;
+width: 200px;
+border:1px solid red;
+}
+
+body {
+  /*display: inline-block;*/
+  margin:0;
+  border:0;
+  padding:0;
+}
+div {
+  text-align: center;
+  vertical-align:baseline;
+}
